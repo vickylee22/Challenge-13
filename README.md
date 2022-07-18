@@ -39,10 +39,10 @@ Use your knowledge of TensorFlow to design a binary classification deep neural n
 To do so, complete the following steps:
 
   1. Create a deep neural network by assigning the number of input features, the number of layers, and the number of neurons on each layer using Tensorflow’s Keras.
-Hint You can start with a two-layer deep neural network model that uses the ```relu`` activation function for both layers.
+> Hint You can start with a two-layer deep neural network model that uses the ```relu`` activation function for both layers.
 
   2. Compile and fit the model using the ```binary_crossentropy``` loss function, the ```adam``` optimizer, and the ```accuracy``` evaluation metric.
-Hint When fitting the model, start with a small number of epochs, such as 20, 50, or 100.
+> Hint When fitting the model, start with a small number of epochs, such as 20, 50, or 100.
 
   3. Evaluate the model using the test data to determine the model’s loss and accuracy.
 
@@ -51,12 +51,13 @@ Hint When fitting the model, start with a small number of epochs, such as 20, 50
 ### **Optimize the Neural Network Model**
 Using your knowledge of TensorFlow and Keras, optimize your model to improve the model's accuracy. Even if you do not successfully achieve a better accuracy, you'll need to demonstrate at least two attempts to optimize the model. You can include these attempts in your existing notebook. Or, you can make copies of the starter notebook in the same folder, rename them, and code each model optimization in a new notebook.
 
-Note You will not lose points if your model does not achieve a high accuracy, as long as you make at least two attempts to optimize the model.
+> Note You will not lose points if your model does not achieve a high accuracy, as long as you make at least two attempts to optimize the model.
 
 To do so, complete the following steps:
 
   1. Define at least three new deep neural network models (the original plus 2 optimization attempts). With each, try to improve on your first model’s predictive accuracy.
-**Rewind** Recall that perfect accuracy has a value of 1, so accuracy improves as its value moves closer to 1. To optimize your model for a predictive accuracy as close to 1 as possible, you can use any or all of the following techniques:
+ 
+> **Rewind** Recall that perfect accuracy has a value of 1, so accuracy improves as its value moves closer to 1. To optimize your model for a predictive accuracy as close to 1 as possible, you can use any or all of the following techniques:
 
     - Adjust the input data by dropping different features columns to ensure that no variables or outliers confuse the model.
 
