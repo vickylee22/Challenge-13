@@ -59,15 +59,15 @@ To do so, complete the following steps:
  
 > **Rewind** Recall that perfect accuracy has a value of 1, so accuracy improves as its value moves closer to 1. To optimize your model for a predictive accuracy as close to 1 as possible, you can use any or all of the following techniques:
 
-  - Adjust the input data by dropping different features columns to ensure that no variables or outliers confuse the model.
+    - Adjust the input data by dropping different features columns to ensure that no variables or outliers confuse the model.
 
-  - Add more neurons (nodes) to a hidden layer.
+    - Add more neurons (nodes) to a hidden layer.
 
-  - Add more hidden layers.
+    - Add more hidden layers.
 
-  - Use different activation functions for the hidden layers.
+    - Use different activation functions for the hidden layers.
 
-  - Add to or reduce the number of epochs in the training regimen.
+    - Add to or reduce the number of epochs in the training regimen.
 
   2. After finishing your models, display the accuracy scores achieved by each model, and compare the results.
 
